@@ -1,0 +1,40 @@
+nav{
+   display: flex;
+   justify-content: space-between;
+   padding: 80px 120px;
+}
+.nav-menu ul{
+   display: flex;
+   gap: 10px;
+}
+.banner{
+   display: flex;
+   padding: 0px 120px;
+}
+.banner-menu{
+   display: flex;
+   padding: 0px 165px;
+   gap: 20px;
+}
+.popular-collect{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   padding: 80px 210px;
+}
+.feature-product{
+   display: flex;
+   padding: 10px 165px;
+}
+footer{
+   text-align: center;
+   background-color: #0A0826;
+   color: #FFF;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.footer-icon{
+   display: flex;
+   gap: 16px;
+}
